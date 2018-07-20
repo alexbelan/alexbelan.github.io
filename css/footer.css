@@ -1,0 +1,12 @@
+footer.head { text-align: left; font-size: 4.5vw; padding: 10px 20px; }
+footer.head p { padding: 0; margin: 5px; }
+footer.head p a { color: #1998FF; text-decoration: none; }
+
+@media (min-width: 768px) { footer.head { padding: 20px 50px; }
+  footer.head p { margin: 10px 0; }
+  .head footer.head { border-top: 2px solid #1998FF; background-color: white; z-index: 1000; position: relative; } }
+@media (min-width: 1024px) { footer.head { position: relative; bottom: 0; border-top: #1998FF solid 2px; }
+  footer.head p { font-size: 1.3rem; }
+  footer.author { top: 7vh; } }
+
+/*# sourceMappingURL=footer.css.map */
