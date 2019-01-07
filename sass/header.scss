@@ -194,30 +194,9 @@ li {
     .main-menu_open {
         left: 0;
     }
-
-    //Стили для вкладки "Главное"
-
-    .head {
-        .bg_blur {
-            @include basic-block(100%, 100vh, 0, 0);
-            object-fit: cover;
-            filter: blur(4px);
-            position: fixed;
-            z-index: 10;
-            background: {
-                image: url("../img/backcground/bakcground_768.png");
-                attachment: fixed;
-            }
-        }
-    }
 }
 
 @media (min-width: 1024px) {
-    .head {
-        .bg_blur {
-            background-image: url("../img/background/background_1024.png");
-        }
-    }
     header {
         margin-top: 7vh;
         top: -1px;
