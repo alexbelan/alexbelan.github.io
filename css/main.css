@@ -89,7 +89,8 @@ aside ul li { list-style-type: none; }
   .head main .gallery { display: flex; background: none; box-shadow: none; overflow: auto; flex-wrap: wrap; justify-content: space-around; align-content: center; box-sizing: border-box; width: 900px; height: auto; padding: 20px 0; margin: 50px auto; }
   .head main .gallery a:nth-child(n+1):nth-child(-n+3) img { margin-bottom: 40px; box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); }
   .head main .gallery a:nth-child(n+1):nth-child(-n+3) img:hover { margin-bottom: -30px; }
-  .head main .gallery a:nth-child(n+4) img:hover { margin-top: -30px; box-shadow: 0 0 50px rgba(0, 0, 0, 0.4); }
+  .head main .gallery a:nth-child(n+4) img { transition: 500ms ease-in-out; margin-top: 30px; }
+  .head main .gallery a:nth-child(n+4) img:hover { box-shadow: 0 0 50px rgba(0, 0, 0, 0.4); margin-top: -30px; }
   .head main .gallery img { width: 250px; border-radius: 20px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); z-index: -100; transition: 500ms ease-in-out; }
   .head main .gallery img:hover { width: 300px; }
   .what_need article div a img { width: 120px; transition: 500ms ease-in-out; }

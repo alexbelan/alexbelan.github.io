@@ -95,8 +95,8 @@ footer.head p a { color: #1998FF; text-decoration: none; }
   main aside.gallery { transition: 500ms ease-in-out; display: flex; background: none; box-shadow: none; overflow: auto; flex-wrap: wrap; justify-content: space-around; align-content: center; box-sizing: border-box; width: 900px; height: auto; padding: 20px 0; margin: 50px auto; }
   main aside.gallery a:nth-child(n+1):nth-child(-n+3) img { margin-bottom: 40px; box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); }
   main aside.gallery a:nth-child(n+1):nth-child(-n+3) img:hover { margin-bottom: -30px; }
-  main aside.gallery a:nth-child(n+4) { margin: 0; }
-  main aside.gallery a:nth-child(n+4) img:hover { margin-top: -30px; box-shadow: 0 0 50px rgba(0, 0, 0, 0.4); }
+  main aside.gallery a:nth-child(n+4) img { margin-top: 1px; }
+  main aside.gallery a:nth-child(n+4) img:hover { box-shadow: 0 0 50px rgba(0, 0, 0, 0.4); margin-top: -30px; }
   main aside.gallery a img { width: 250px; border-radius: 20px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); z-index: -100; transition: 500ms ease-in-out; }
   main aside.gallery a img:hover { width: 300px; }
   footer.head { position: relative; bottom: 0; border-top: #1998FF solid 2px; }
