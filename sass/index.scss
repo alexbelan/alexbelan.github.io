@@ -244,7 +244,7 @@ footer.head {
             position: fixed;
             z-index: 10;
             background: {
-                image: url("../img/backcground/background_768.png");
+                image: url("../img/background/bakcground_768.png");
                 attachment: fixed;
             }
         }
@@ -254,6 +254,7 @@ footer.head {
         position: relative;
         z-index: 1000;
         article {
+            width: 100%;
             padding: 15px 50px;
             background-color: white;
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
@@ -442,8 +443,7 @@ footer.head {
                     height: 100%;
                 }
                 &:hover {
-                    width: 800px;
-                    height: 440px;
+                    box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
                 }
                 margin: 50px auto;
             }
@@ -505,7 +505,7 @@ footer.head {
 @media (min-width: 1366px) {
     .head {
         .bg_blur {
-            background-image: url("../img/backcground/bakcground_1366.png");
+            background-image: url("../img/background/bakcground_1366.png");
         }
     }
     
@@ -516,7 +516,7 @@ footer.head {
 
     main {
         article {
-            width: 1250px;
+            width: 100%;
         }
     }
 
