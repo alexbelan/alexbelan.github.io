@@ -686,17 +686,14 @@ footer {
         .team {
             padding-bottom: 100px;
             .people {
-                .swiper-wrapper {
-                    display: flex;
-                    justify-content: space-around;
-                }
+                display: flex;
+                justify-content: space-around;
                 .dev {
                     width: 280px;
                     height: 480px;
                     display: flex;
                     justify-content: center;
-                    flex-direction: column;
-                    
+                    flex-direction: row;
                     .img {
                         width: 280px;
                         img {

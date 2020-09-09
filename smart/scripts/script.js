@@ -5,11 +5,11 @@ btnMenu.addEventListener("click", () => {
     menu.classList.toggle("show-menu");
 })
 
-let teamSwiper = new Swiper('.people', {
-    speed: 400,
-    spaceBetween: 100,
-    init: false
-})
+// let teamSwiper = new Swiper('.people', {
+//     speed: 400,
+//     spaceBetween: 100,
+//     init: false
+// })
 
 let mySwiper = new Swiper('.gallery', {
     speed: 400,
@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
         mySwiper.init();
     }
     if (window.innerWidth < 1024) {
-        teamSwiper.init();
         companySwiper.init();
     }
 })
@@ -51,10 +50,8 @@ window.addEventListener("resize", () => {
     }
 
     if (window.innerWidth < 1024) {
-        teamSwiper.init();
         companySwiper.init();
     } else {
-        teamSwiper.destroy(false, true);
         companySwiper.destroy(false, true);
     }
     

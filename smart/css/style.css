@@ -469,87 +469,87 @@ footer {
     display: block; }
   main .team {
     padding-bottom: 100px; }
-    main .team .people .swiper-wrapper {
+    main .team .people {
       display: flex;
       justify-content: space-around; }
-    main .team .people .dev {
-      width: 280px;
-      height: 480px;
-      display: flex;
-      justify-content: center;
-      flex-direction: column; }
-      main .team .people .dev .img {
-        width: 280px; }
-        main .team .people .dev .img img {
-          width: 100%; }
-      main .team .people .dev .data {
-        position: absolute;
-        transition: 1000ms;
-        height: 95px;
-        width: 90%;
-        bottom: 0;
-        margin: 0 14px;
-        z-index: 10000; }
-        main .team .people .dev .data .skill {
-          display: block;
-          visibility: hidden;
+      main .team .people .dev {
+        width: 280px;
+        height: 480px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row; }
+        main .team .people .dev .img {
+          width: 280px; }
+          main .team .people .dev .img img {
+            width: 100%; }
+        main .team .people .dev .data {
+          position: absolute;
           transition: 1000ms;
-          opacity: 0;
-          margin: 0 auto 80px; }
-          main .team .people .dev .data .skill h4 {
-            text-align: center;
-            font-size: 12px;
-            margin-bottom: 5px; }
-          main .team .people .dev .data .skill .line {
-            width: 150px;
-            height: 4px;
-            border-radius: 2px;
-            background-color: #6B6B6B;
-            margin: auto;
-            margin-bottom: 15px; }
-            main .team .people .dev .data .skill .line .progres {
-              width: 50%;
+          height: 95px;
+          width: 90%;
+          bottom: 0;
+          margin: 0 14px;
+          z-index: 10000; }
+          main .team .people .dev .data .skill {
+            display: block;
+            visibility: hidden;
+            transition: 1000ms;
+            opacity: 0;
+            margin: 0 auto 80px; }
+            main .team .people .dev .data .skill h4 {
+              text-align: center;
+              font-size: 12px;
+              margin-bottom: 5px; }
+            main .team .people .dev .data .skill .line {
+              width: 150px;
               height: 4px;
               border-radius: 2px;
-              background-color: #FF5C36; }
-        main .team .people .dev .data .base-data {
-          transition: 1000ms;
-          margin-top: -200px;
-          margin-bottom: 10px; }
-          main .team .people .dev .data .base-data h2 {
-            transition: 1000ms; }
-          main .team .people .dev .data .base-data p {
-            transition: 1000ms; }
-        main .team .people .dev .data .soc-net {
-          transition: 1000ms;
-          opacity: 0;
-          display: flex;
-          justify-content: center;
-          width: 80px;
-          margin: auto; }
-          main .team .people .dev .data .soc-net .svg {
-            width: 15px;
-            height: 15px; }
-      main .team .people .dev:hover .data {
-        width: 280px;
-        height: 430px;
-        bottom: 15px;
-        border-radius: 0;
-        background-color: rgba(255, 255, 255, 0.85);
-        margin: 0; }
-        main .team .people .dev:hover .data .skill {
-          margin-top: 130px;
-          opacity: 1;
-          visibility: visible; }
-        main .team .people .dev:hover .data .base-data {
-          margin-top: 0; }
-          main .team .people .dev:hover .data .base-data h2 {
-            margin-bottom: 1px; }
-          main .team .people .dev:hover .data .base-data p {
-            margin-top: 1px;
-            color: #FF5C36; }
-        main .team .people .dev:hover .data .soc-net {
-          opacity: 1; }
+              background-color: #6B6B6B;
+              margin: auto;
+              margin-bottom: 15px; }
+              main .team .people .dev .data .skill .line .progres {
+                width: 50%;
+                height: 4px;
+                border-radius: 2px;
+                background-color: #FF5C36; }
+          main .team .people .dev .data .base-data {
+            transition: 1000ms;
+            margin-top: -200px;
+            margin-bottom: 10px; }
+            main .team .people .dev .data .base-data h2 {
+              transition: 1000ms; }
+            main .team .people .dev .data .base-data p {
+              transition: 1000ms; }
+          main .team .people .dev .data .soc-net {
+            transition: 1000ms;
+            opacity: 0;
+            display: flex;
+            justify-content: center;
+            width: 80px;
+            margin: auto; }
+            main .team .people .dev .data .soc-net .svg {
+              width: 15px;
+              height: 15px; }
+        main .team .people .dev:hover .data {
+          width: 280px;
+          height: 430px;
+          bottom: 15px;
+          border-radius: 0;
+          background-color: rgba(255, 255, 255, 0.85);
+          margin: 0; }
+          main .team .people .dev:hover .data .skill {
+            margin-top: 130px;
+            opacity: 1;
+            visibility: visible; }
+          main .team .people .dev:hover .data .base-data {
+            margin-top: 0; }
+            main .team .people .dev:hover .data .base-data h2 {
+              margin-bottom: 1px; }
+            main .team .people .dev:hover .data .base-data p {
+              margin-top: 1px;
+              color: #FF5C36; }
+          main .team .people .dev:hover .data .soc-net {
+            opacity: 1; }
   main .clients .clients-all button {
     display: flex;
     justify-content: center;
