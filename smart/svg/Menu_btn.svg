@@ -1,0 +1,13 @@
+<svg id="Menu" xmlns="http://www.w3.org/2000/svg" width="34" height="20" viewBox="0 0 34 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #170f1c;
+        opacity: 0.6;
+      }
+    </style>
+  </defs>
+  <rect id="Rounded_Rectangle_9" data-name="Rounded Rectangle 9" class="cls-1" width="34" height="4" rx="1.5" ry="1.5"/>
+  <rect id="Rounded_Rectangle_9_copy" data-name="Rounded Rectangle 9 copy" class="cls-1" y="8" width="34" height="4" rx="1.5" ry="1.5"/>
+  <rect id="Rounded_Rectangle_9_copy_2" data-name="Rounded Rectangle 9 copy 2" class="cls-1" y="16" width="34" height="4" rx="1.5" ry="1.5"/>
+</svg>
