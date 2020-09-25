@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Light'), local('Poppins-Light'), url('./poppins/Poppinslight.woff2') format('woff2'), url('./poppins/Poppinslight.woff') format('woff'), url('./poppins/Poppinslight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Regular'), local('Poppins-Regular'), url('./poppins/Poppinsregular.woff2') format('woff2'), url('./poppins/Poppinsregular.woff') format('woff'), url('./poppins/Poppinsregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Poppins-BoldSemiBold'), local('Poppins-SemiBold'), url('./poppins/Poppinspoppins-boldsemibold.woff2') format('woff2'), url('./poppins/Poppinspoppins-boldsemibold.woff') format('woff'), url('./poppins/Poppinspoppins-boldsemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Thin'), local('Poppins-Thin'), url('./poppins/Poppinsthin.woff2') format('woff2'), url('./poppins/Poppinsthin.woff') format('woff'), url('./poppins/Poppinsthin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Italic'), local('Poppins-Italic'), url('./poppins/Poppinsitalic.woff2') format('woff2'), url('./poppins/Poppinsitalic.woff') format('woff'), url('./poppins/Poppinsitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Medium Italic'), local('Poppins-MediumItalic'), url('./poppins/Poppinsmediumitalic.woff2') format('woff2'), url('./poppins/Poppinsmediumitalic.woff') format('woff'), url('./poppins/Poppinsmediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins ExtraLight Italic'), local('Poppins-ExtraLightItalic'), url('./poppins/Poppinsextralightitalic.woff2') format('woff2'), url('./poppins/Poppinsextralightitalic.woff') format('woff'), url('./poppins/Poppinsextralightitalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins ExtraBold Italic'), local('Poppins-ExtraBoldItalic'), url('./poppins/Poppinsextrabolditalic.woff2') format('woff2'), url('./poppins/Poppinsextrabolditalic.woff') format('woff'), url('./poppins/Poppinsextrabolditalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins ExtraBold'), local('Poppins-ExtraBold'), url('./poppins/Poppinsextrabold.woff2') format('woff2'), url('./poppins/Poppinsextrabold.woff') format('woff'), url('./poppins/Poppinsextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Light Italic'), local('Poppins-LightItalic'), url('./poppins/Poppinslightitalic.woff2') format('woff2'), url('./poppins/Poppinslightitalic.woff') format('woff'), url('./poppins/Poppinslightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Black'), local('Poppins-Black'), url('./poppins/Poppinsblack.woff2') format('woff2'), url('./poppins/Poppinsblack.woff') format('woff'), url('./poppins/Poppinsblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Thin Italic'), local('Poppins-ThinItalic'), url('./poppins/Poppinsthinitalic.woff2') format('woff2'), url('./poppins/Poppinsthinitalic.woff') format('woff'), url('./poppins/Poppinsthinitalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Poppins-SemiBoldMedium'), local('Poppins-Medium'), url('./poppins/Poppinspoppins-semiboldmedium.woff2') format('woff2'), url('./poppins/Poppinspoppins-semiboldmedium.woff') format('woff'), url('./poppins/Poppinspoppins-semiboldmedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins ExtraLight'), local('Poppins-ExtraLight'), url('./poppins/Poppinsextralight.woff2') format('woff2'), url('./poppins/Poppinsextralight.woff') format('woff'), url('./poppins/Poppinsextralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Bold Italic'), local('Poppins-BoldItalic'), url('./poppins/Poppinsbolditalic.woff2') format('woff2'), url('./poppins/Poppinsbolditalic.woff') format('woff'), url('./poppins/Poppinsbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins SemiBold Italic'), local('Poppins-SemiBoldItalic'), url('./poppins/Poppinssemibolditalic.woff2') format('woff2'), url('./poppins/Poppinssemibolditalic.woff') format('woff'), url('./poppins/Poppinssemibolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Bold'), local('Poppins-Bold'), url('./poppins/Poppinsbold.woff2') format('woff2'), url('./poppins/Poppinsbold.woff') format('woff'), url('./poppins/Poppinsbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Black Italic'), local('Poppins-BlackItalic'), url('./poppins/Poppinsblackitalic.woff2') format('woff2'), url('./poppins/Poppinsblackitalic.woff') format('woff'), url('./poppins/Poppinsblackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url('./playfair/Playfairdisplayregular.woff2') format('woff2'), url('./playfair/Playfairdisplayregular.woff') format('woff'), url('./playfair/Playfairdisplayregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display SemiBold'), local('PlayfairDisplay-SemiBold'), url('./playfair/Playfairdisplaysemibold.woff2') format('woff2'), url('./playfair/Playfairdisplaysemibold.woff') format('woff'), url('./playfair/Playfairdisplaysemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Italic'), local('PlayfairDisplay-Italic'), url('./playfair/Playfairdisplayitalic.woff2') format('woff2'), url('./playfair/Playfairdisplayitalic.woff') format('woff'), url('./playfair/Playfairdisplayitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Medium Italic'), local('PlayfairDisplay-MediumItalic'), url('./playfair/Playfairdisplaymediumitalic.woff2') format('woff2'), url('./playfair/Playfairdisplaymediumitalic.woff') format('woff'), url('./playfair/Playfairdisplaymediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display ExtraBold Italic'), local('PlayfairDisplay-ExtraBoldItalic'), url('./playfair/Playfairdisplayextrabolditalic.woff2') format('woff2'), url('./playfair/Playfairdisplayextrabolditalic.woff') format('woff'), url('./playfair/Playfairdisplayextrabolditalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display ExtraBold'), local('PlayfairDisplay-ExtraBold'), url('./playfair/Playfairdisplayextrabold.woff2') format('woff2'), url('./playfair/Playfairdisplayextrabold.woff') format('woff'), url('./playfair/Playfairdisplayextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Black'), local('PlayfairDisplay-Black'), url('./playfair/Playfairdisplayblack.woff2') format('woff2'), url('./playfair/Playfairdisplayblack.woff') format('woff'), url('./playfair/Playfairdisplayblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Medium'), local('PlayfairDisplay-Medium'), url('./playfair/Playfairdisplaymedium.woff2') format('woff2'), url('./playfair/Playfairdisplaymedium.woff') format('woff'), url('./playfair/Playfairdisplaymedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Bold Italic'), local('PlayfairDisplay-BoldItalic'), url('./playfair/Playfairdisplaybolditalic.woff2') format('woff2'), url('./playfair/Playfairdisplaybolditalic.woff') format('woff'), url('./playfair/Playfairdisplaybolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display SemiBold Italic'), local('PlayfairDisplay-SemiBoldItalic'), url('./playfair/Playfairdisplaysemibolditalic.woff2') format('woff2'), url('./playfair/Playfairdisplaysemibolditalic.woff') format('woff'), url('./playfair/Playfairdisplaysemibolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'), url('./playfair/Playfairdisplaybold.woff2') format('woff2'), url('./playfair/Playfairdisplaybold.woff') format('woff'), url('./playfair/Playfairdisplaybold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Black Italic'), local('PlayfairDisplay-BlackItalic'), url('./playfair/Playfairdisplayblackitalic.woff2') format('woff2'), url('./playfair/Playfairdisplayblackitalic.woff') format('woff'), url('./playfair/Playfairdisplayblackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}

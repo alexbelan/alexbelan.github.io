@@ -3,240 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Главное</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <!-- <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/footer.css"> -->
+    <title>Страница с проектами</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        h1 {
+            text-align: center;
+            margin: 50px auto;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .card {
+            width: 18rem !important;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
-<body class="head">
-        
-    <div class="bg_blur"></div>
-    <header class="relative">
-        <video class="head_img" src="video/Notebook - 197.mp4" autoplay loop></video>
-        <h1>Веб-дизайн</h1>
-        
+<body>
+    <header>
+        <h1>Мои статичеые сайты и HTML шаблоны</h1>
     </header>
-
-    <main>
-
-        <div id="menu" class="main-menu">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="./index.html" class="head-li">Web-Design</a>
-                    </li>
-                    <li>
-                        <a href="pages/what_need.html">Для верстки</a>
-                    </li>
-                    <li>
-                        <a href="pages/аrticles.html">Статьи</a>
-                    </li>
-                    <li>
-                        <a href="./pages/about_site.html">О сайте</a>
-                    </li>
-                    <li>
-                        <a href="./pages/author.html">Создатель</a>
-                    </li>
-                    
-                </ul>
-            </nav>
-            <div id="btn" class="menu-open">
-                <div class="band"></div>
-                <div class="band"></div>
-                <div class="band"></div>
+    <div class="container">
+        <div class="card" style="width: 18rem !important;">
+            <img src="./img/firstsite.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Мой первый сайт</h5>
+                <p class="card-text">Это мой первый полноценный серьёзный сайт, который я сделал в 2018 году.</p>
+                <a href="./sites/firstsite/" class="btn btn-primary">Посмотреть</a>
             </div>
         </div>
-        
-        <article>
-            <header>
-                <h2>HTML и CSS</h2>
-            </header>
-
-            <p>
-                HTML (от англ. Hyper Text Markup Language — «язык гипертекстовой разметки») - стандартизированный язык разметки документов
-                во Всемирной паутине. Большинство веб-страниц содержат описание разметки на языке HTML (или XHTML). Язык HTML интерпретируется
-                браузерами; полученный в результате интерпретации форматированный текст отображается на экране монитора компьютера или мобильного
-                устройства.
-            </p>
-            <p>
-                CSS (англ. Cascading Style Sheets — каскадные таблицы стилей) — формальный язык описания внешнего вида документа,
-                написанного с использованием языка разметки.
-                <br>
-                Преимущественно используется как средство описания, оформления внешнего вида веб-страниц, написанных с помощью языков разметки
-                HTML и XHTML, но может также применяться к любым XML-документам, например, к SVG или XUL.
-            </p>
-            <p>
-                Консорциум Всеми́рной паутины (англ. World Wide Web Consortium, W3C) - организация, разрабатывающая и внедряющая технологические
-                стандарты для Всемирной паутины. Основателем и главой консорциума является сэр Тимоти Джон Бернерс-Ли, автор множества разработок
-                в области информационных технологий.
-            </p>
-        
-            <p>
-                Вёрстка веб-страниц - создание структуры html-кода, размещающего элементы веб-страницы (изображения, текст и т. д.) в окне
-                браузера, согласно разработанному макету, таким образом, чтобы элементы дизайна выглядели аналогично макету.
-                <br>
-                Вёрстка веб-страниц отличается от полиграфической тем, что необходимо учитывать разницу отображения элементов в различных
-                браузерах и разницу в размерах рабочего пространства устройств.
-            </p>
-            <p>
-                Процесс сложен и имеет творческую основу, ни один из способов не является каноничным и принятым как основа. Все подходы
-                к вёрстке имеют как преимущества, так и недостатки.
-                <br> 
-                Хотя работа верстальщика скрыта от глаз, именно она обеспечивает бесперебойность при работе на различных устройствах, а
-                также скорость загрузки каждой страницы сайта.
-            </p>
-            
-            <footer>
-                <p>
-                    <a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%92%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0_%D0%B2%D0%B5%D0%B1-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86">Подробнее>></a>
-                </p>
-            </footer>
-        </article>
-
-        <aside class="w3org">
-            <img src="img/w3org/people_tim-berners-lee.3572314dc1a247158cb2b391b70f6b64.jpg" alt="">
-            <ul>
-                <li>Телефон:
-                    <em>Какой-то телефонный номер</em>
-                </li>
-                <li>Email:
-                    <em>Какой-то email</em>
-                </li>
-            </ul>
-            <p>
-                Сэр Тимоти Джон Бернерс-Ли OM (англ. Sir Timothy John «Tim» Berners-Lee; род. 8 июня 1955 года, Лондон) — изобретатель URI,
-                URL, HTTP, HTML, создатель Всемирной паутины (совместно с Робертом Кайо) и действующий глава Консорциума Всемирной
-                паутины. Автор концепции семантической паутины. Автор множества других разработок в области информационных технологий.
-            </p>
-        </aside>
-
-        <article>
-            <header>
-                <h2>Веб-дизайн</h2>
-            </header>
-            <p>
-                Веб-дизайн (от англ. web design) - отрасль веб-разработки и разновидность дизайна, в задачи которой входит проектирование
-                пользовательских веб-интерфейсов для сайтов или веб-приложений.
-            </p>
-            <p>
-                В результате пересечения двух отраслей человеческой деятельности грамотный веб-дизайнер должен быть знаком с последними
-                веб-технологиями и обладать соответствующими художественными качествами. Большая часть специалистов, работающих в области
-                дизайна, обычно концентрирует в себе такое творческое образование, как студия дизайна.
-            </p>
-            <p>
-                Веб-дизайнер — сравнительно молодая профессия, и профессиональное образование в области веб-дизайна в России пока не распространено.
-                В связи с увеличением спроса на представительство в Сети растёт и спрос на дизайн сайтов, увеличивается количество веб-дизайнеров.
-                В настоящее время услуги веб-дизайна предоставляют как веб-студии, так и частные лица (веб-дизайнеры, являющиеся фрилансерами).
-            </p>
-            <p>
-                Уникальный дизайн стоит дороже, но и предполагает отрисовку с нуля, полностью уникальную разработку под конкретный заказ.
-                В зависимости от профессионализма и/или политики компании веб-дизайнер либо разрабатывает идею и концепцию дизайна полностью
-                самостоятельно, либо получает ряд требований (цвет, стиль и т. п.), ожиданий и идей от заказчика или креативного директора
-                (арт-директора) и старается держаться этого направления при разработке макета. Большинство заказчиков ошибочно отождествляют
-                веб-дизайнера и веб-мастера, поручая ему и публикацию сайта.
-            </p>
-            <p>
-                Иногда дизайнер может предложить дизайн-решение на основе шаблонов (своих или даже чужих), это ускоряет работу и обойдется
-                заказчику дешевле. Некоторые дизайнеры даже специализируются на изготовлении дизайн-макетов для продажи в качестве готовых
-                шаблонов, которые затем могут быть куплены и использоваться менее опытными дизайнерами или веб-мастерами для изготовления
-                типовых сайтов (по сути, без уникального дизайна). Иной раз разработкой веб-дизайна называют небольшую перекомпоновку и адаптацию
-                такого шаблона под конкретный заказ.
-            </p>
-            <footer>
-                <p>
-                    <a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD">Подробнее>></a>
-                </p>
-            </footer>
-        </article>
-
-        <aside class="youTube">
-            <iframe src="https://www.youtube.com/embed/xZ4li_ELwPY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </aside>
-
-        <article>
-            <header>
-                <h2>Принципы грамотного веб-дизайн</h2>
-            </header>
-            <p>
-                Эффективный интерфейс пользователя объединяет в себе две составляющие: приятный внешний вид и удобство использования. Чтобы
-                создать такой интерфейс, нужно понимать основы: как пользователь взаимодействует с UI, чего он ожидает и что может стать
-                источником потенциальных проблем.
-            </p>
-            <p>
-                Чем детальнее вы его опишите, тем лучше. Только точно зная, кто ваш пользователь, как и почему он действует, вы сможете
-                создать UI дизайн веб-сайта, который будет работать так, как нужно.
-            </p>
-            <p>
-                Об этом легко забыть, но пользователи уже проводят кучу времени в других интерфейсах, будь то Facebook, Gmail или Flickr.
-                Разберитесь, как они устроены и не придумывайте колесо. Используя уже известные модели, вы поможете пользователям быстро
-                разобраться в новом продукте и завоюете их доверие.
-            </p>
-            <p>
-                Покажите пользователю, что самое важное на вашей странице. Размер, цвет, размещение и негативное пространство вокруг каждого
-                элемента должны соответствовать его роли, важной или второстепенной.
-            </p>
-            <p>
-                Когда пользователь впервые заходит в новый инструмент, расскажите ему, с чего начать, покажите примеры продуктов, созданных
-                с его помощью — одним словом, вдохновите его на работу с сервисом.
-            </p>
-            <p>
-                В своей книге «Don’t Make Me Think» Стив Круг утверждает: интерфейс должен быть самодостаточным и объяснять сам себя. Если
-                чтобы понять, как пользоваться навигацией, нужна инструкция, — на лицо пример плохого UI.</p>
-            <footer>
-                <p>
-                    <a target="_blank" href="https://stfalcon.com/ru/blog/post/user-interface-web-design-principles">Ссылка на источник>></a>
-                </p>
-            </footer>
-        </article>
-
-        <aside class="gallery">
-            <a title="Ссылка на красивый сайт" target="_blank" href="http://curvy.dk/beagle/site/">
-                <img class="buty_site" src="img/gallery/basicagency-1024x528.jpg" alt="">
-            </a>
-            <!--
-                         -->
-            <a title="Ссылка на красивый сайт" target="_blank" href="https://www.finforafin.com/">
-                <img class="buty_site" src="img/gallery/finforafin-1024x489.jpg" alt="">
-            </a>
-            <!--
-                         -->
-            <a title="Ссылка на красивый сайт" target="_blank" href="https://bitesizeinc.com/accueil">
-                <img class="buty_site " src="img/gallery/bitesizeinc-1024x493.jpg" alt="">
-            </a>
-            <!--
-                         -->
-            <a title="Ссылка на красивый сайт" target="_blank" href="https://granola.com.ua/">
-                <img class="buty_site" src="img/gallery/granola-1024x488.jpg" alt="">
-            </a>
-            <!--
-                         -->
-            <a title="Ссылка на красивый сайт" target="_blank" href="http://www.kikk.be/2013/">
-                <img class="buty_site" src="img/gallery/kikk-2013-1024x489.jpg" alt="">
-            </a>
-            <!--
-                         -->
-            <a title="Ссылка на красивый сайт" target="_blank" href="http://timeismoneypro.com/">
-                <img class="buty_site" src="img/gallery/timeismoneypro-1024x492.jpg" alt="">
-            </a>
-        </aside>
-
-    </main>
-
-    <footer class="head">
-        <p>
-            Разрабочик: <a target="_blank" href="https://vk.com/id164065164">Александр Белан</a>
-        </p>
-        <p>
-            GitHab: <a target="_blank" href="https://github.com/alex00231">alex00231</a>
-        </p>
-    </footer>
-
-    <script>
-        btn.addEventListener("click", function () {
-            menu.classList.toggle("main-menu_open")
-        });
-    </script>
+        <div class="card" style="width: 18rem;">
+            <img src="./img/smartsite.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Smart site</h5>
+                <p class="card-text">Это один из последних моих HTML шаблонов для lending page, тут я использовал SASS, и js библиотеку Swiper для создания слайдеров и всё адаптивно</p>
+                <a href="./sites/smart/" class="btn btn-primary">Посмотреть</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./img/mogosite.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">MoGo</h5>
+                <p class="card-text">Это также обычный lending page, сделанный с помощью SASS и не много c JavaScript, но очень сложный и там есть ряд интересных моментов, сделан с PSD макета не адаптивный</p>
+                <a href="./sites/mogo/" class="btn btn-primary">Посмотреть</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./img/pirollsite.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Piroll</h5>
+                <p class="card-text">Это первый сайт который был сделан по PSD макету, он не адаптивный.</p>
+                <a href="./sites/piroll/" class="btn btn-primary">Посмотреть</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./img/marsyblog.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Marsy Blog</h5>
+                <p class="card-text">Это последний сайт который я сделал на данный момент, по PSD макету, также я его адоптировал для WordPress</p>
+                <a href="./sites/marcyblog/" class="btn btn-primary">Посмотреть</a>
+            </div>
+        </div>
+      </div>
 </body>
 </html>

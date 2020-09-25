@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto+Slab:400,700&subset=cyrillic');
+
+$font-family-main: 'Open Sans', sans-serif;
+$font-family-head: 'Roboto Slab', serif;
+$transition-time: 1s;
+$position-nav: fixed;
+$position-absolute: absolute;
+$text-bold: 700;
+$main-color: #1998FF;
+$border-radius: 20px;
+
+@mixin main-menu-basic ($width-nav, $height-nav, $left) {
+    width: $width-nav;
+    height: $height-nav;
+    left: $left;
+}
+
+@mixin basic-block ($width, $height, $padding, $margin) {
+    box-sizing: border-box;
+    width: $width;
+    height: $height;
+    padding: $padding;
+    margin: $margin
+}
+
+@mixin basic-text ($text-align, $font-size) {
+    text-align: $text-align;
+    font-size: $font-size;
+}
+
+//Основные стили
+
+%main-menu-style {
+    position: $position-nav;
+    transition: $transition-time;
+    background-color: #2F2F2F;
+    top: 0;
+}
+
+%menu-open-btn {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    right: -40px;
+    top: 0;
+    background-color: #2F2F2F;
+}
+
+body, html {
+    margin: 0;
+    font-family: $font-family-main;
+}
+
+body {
+    header {
+        width: 100%;
+    }
+    
+}
+
+.main-menu {
+    @include main-menu-basic(270px, 100vh, -270px);
+    @extend %main-menu-style;
+    nav {
+        ul {
+            padding: 0;
+            li {
+                @include basic-text(center, auto);
+                list-style-type: none;
+                border-bottom: rgb(189, 189, 189) solid 1px;
+                padding: 10px;
+                ul.оther_tabs {
+                    padding: 0;
+                    margin: 0;
+                    li {
+                        &:first-child {
+                            border-top: none;
+                        }
+                        &:last-child {
+                            border: none;
+                        }
+                    }
+                }
+                &:first-child {
+                    border-top: rgb(189, 189, 189) solid 1px
+                }
+                &.оther_tabs {
+                    padding: 0;
+                }
+                a {
+                    @include basic-text(center, 5vw);
+                    color: white;
+                    text-decoration: none;
+                }
+                a.head-li {
+                    font: {
+                        family: $font-family-head;
+                        weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .menu-open {
+        position: $position-absolute;
+        @extend %menu-open-btn;
+        .band {
+            height: 2px;
+            background-color: white;
+            margin: 8px 5px;
+        }
+    }
+}
+
+.main-menu_open {
+    left: 0;
+}
+
+.head_img {
+    @include basic-block(100%, auto, 0, auto);
+}
+
+h1 {
+    @include basic-text(center, 10vw);
+    @include basic-block(100%, auto, 10px 0, 0);
+    position: $position-absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    top: 6vh;
+    font: {
+        family: $font-family-head;
+        weight: $text-bold;
+    }
+}
+
+//Стили для вкладки "Cтатьи"
+
+li {
+    ul.оther_tabs_articles {
+        background-color: white;
+        border-radius: $border-radius;
+        margin: 10px 0 5px;
+        li.internal_menu {
+            border: none;
+            padding: 5px 0;
+            &:first-child {
+                border: none;
+            }
+            a {
+                color: $main-color;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    header.relative {
+        background-color: white;
+        z-index: 1000;
+        position: relative;
+    }
+    // .bg_blur {
+    //     @include basic-block(100%, 100vh, 0, 0);
+    //     filter: blur(4px);
+    //     position: fixed;
+    //     z-index: 9px;
+    //     object-fit: cover;
+    //     background: {
+    //         image: url("../img/backcground/bakcground_768.png");
+    //         attachment: fixed;
+    //     }
+    // }
+    .main-menu {
+        @include main-menu-basic(400px, 100vh, -400px);
+        z-index: 10000;
+        .menu-open {
+            @include basic-block(50px, 50px, 0, 0);
+            right: -50px;
+            .band {
+                height: 3px;
+                background-color: white;
+                margin: 10px 5px;
+            }
+        }
+        nav {
+            ul {
+                li {
+                    a {
+                        font-size: 3.5vw;
+                    }
+                }
+            }
+        }
+    }
+    .main-menu_open {
+        left: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    header {
+        margin-top: 7vh;
+        top: -1px;
+        h1 {
+            font-size: 7vw;
+        }
+    }
+    .main-menu {
+        width: 100%;
+        height: 7vh;
+        position: fixed;
+        left: 0;
+        top: -1px;
+        nav {
+            ul {
+                display: flex;
+                height: 7vh;
+                border: none;
+                justify-content: space-around;
+                margin: 0;
+                li{
+                    display: flex;
+                    align-items: center;
+                    padding: 0;
+                    border: none;
+                    a {
+                        font-size: 1.5rem;
+                        transition: 500ms ease-in-out;
+                        &::after {
+                            content: "";
+                            display: block;
+                            margin: auto;
+                            height: 2px;
+                            background-color: white;
+                            width: 0;
+                            border-radius: 10px;
+                            transition: 500ms ease-in-out;
+                        }
+                        &:hover {
+                            color: $main-color;
+                            &::after {
+                                width: 100%;
+                                background-color: $main-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //Стили для вкладки "Cтатьи" 
+    nav {
+        ul {
+            top: 0;
+        }
+    }
+    li {
+        ul.оther_tabs_articles {
+            display: none;
+        }
+        .colons {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 1366px) {
+    .head {
+        .bg_blur {
+            background-image: url("../img/backcground/bakcground_1366.png");
+        }
+    }
+    
+    nav {
+        width: 1366px;
+        margin: 0 auto;
+    }
+}
+
+ 
+
+
+

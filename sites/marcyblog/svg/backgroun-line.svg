@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="973.188" height="1063.378" viewBox="0 0 973.188 1063.378">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+        opacity: 0.1;
+      }
+
+      .cls-3 {
+        fill: #e5e5e5;
+      }
+    </style>
+  </defs>
+  <g class="cls-1">
+    <path class="cls-2" d="M-27.364,1422.69l-2.828-2.83L970.364,419.308l2.828,2.828L-27.364,1422.69" transform="translate(0 -419.312)"/>
+    <circle class="cls-3" cx="471.86" cy="501.344" r="15.016"/>
+    <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-2" d="M-212.364,1482.69l-2.828-2.83L785.364,479.308l2.828,2.828L-212.364,1482.69" transform="translate(0 -419.312)"/>
+    <circle id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-3" cx="573.86" cy="272.344" r="15.015"/>
+  </g>
+</svg>

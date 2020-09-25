@@ -1,0 +1,12 @@
+<svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        opacity: 0.5;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M221.956,1501h1.392v16h-1.392v-16Z" transform="translate(-215 -1501)"/>
+  <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-1" d="M215,1508.65h16v1.39H215v-1.39Z" transform="translate(-215 -1501)"/>
+</svg>

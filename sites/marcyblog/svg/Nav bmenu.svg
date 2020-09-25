@@ -1,0 +1,14 @@
+<svg id="Nav_bmenu" data-name="Nav bmenu" xmlns="http://www.w3.org/2000/svg" width="31" height="24" viewBox="0 0 31 24">
+  <defs>
+    <style>
+      .  {
+        fill: #273d46;
+        fill-rule: evenodd;
+        opacity: 0.5;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_2" data-name="Rounded Rectangle 2" class="cls-1" d="M151.449,107h26.1A2.448,2.448,0,0,1,180,109.449v1a2.448,2.448,0,0,1-2.449,2.448h-26.1A2.448,2.448,0,0,1,149,110.449v-1A2.448,2.448,0,0,1,151.449,107Z" transform="translate(-149 -107)"/>
+  <path id="Rounded_Rectangle_2_copy" data-name="Rounded Rectangle 2 copy" class="cls-1" d="M151.449,115.846h26.1A2.449,2.449,0,0,1,180,118.3v1a2.449,2.449,0,0,1-2.449,2.449h-26.1A2.449,2.449,0,0,1,149,119.3v-1A2.449,2.449,0,0,1,151.449,115.846Z" transform="translate(-149 -107)"/>
+  <path id="Rounded_Rectangle_2_copy_2" data-name="Rounded Rectangle 2 copy 2" class="cls-1" d="M151.449,125.1h26.1A2.449,2.449,0,0,1,180,127.551v1A2.448,2.448,0,0,1,177.551,131h-26.1A2.448,2.448,0,0,1,149,128.551v-1A2.449,2.449,0,0,1,151.449,125.1Z" transform="translate(-149 -107)"/>
+</svg>
